@@ -1,1 +1,11 @@
+Reverse Numbers 100 to 1
 
+public class ReverseNumbers {
+public static void main(String[] args) {
+	int i,n=100;
+	for(i=1;i<=n;)
+	{
+		System.out.println(n--);  //Reverse order
+	}
+}
+}
